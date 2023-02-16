@@ -1,7 +1,9 @@
 #include<stdio.h>
 
-/*
- *I'll try to comment this way
+/**
+ * main - Entry point
+ *
+ *Return: Always 0 (Success)
 */
 int main (void)
 {
