@@ -6,7 +6,6 @@
  *
  *Return: Always 0 (success)
  */
-
 int main(void)
 {
 	int n;
@@ -31,4 +30,3 @@ int main(void)
 	}
 	return (0);	
 }
-
