@@ -6,7 +6,7 @@
  * return: 1 if c is a letter, 0 otherwise
  */
 
-int _isalphe(int c)
+int _isalpha(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
