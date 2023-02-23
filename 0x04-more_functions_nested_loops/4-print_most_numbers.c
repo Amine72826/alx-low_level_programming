@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_most_numbers - prints numbers 0-9
+ * print_most_numbers - prints numbers 0 to 9
+ *
  * 
  * Return: void
  */
