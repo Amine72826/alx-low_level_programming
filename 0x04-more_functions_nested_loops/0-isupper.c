@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * _isupper(int c) - Checks for uppercase character
+ * _isupper - Checks for uppercase character
  *
- * Return: 0
+ * Return: always0
  */
-
 int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
