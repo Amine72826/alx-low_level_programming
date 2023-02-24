@@ -5,7 +5,6 @@
  * main - prints the numbers from 1 to 100, followed by a new line
  * for multiples of 3 prints fizz instead of the number
  * and for multiples of five prins buzz
- * for multiples of both prints fizzbuzz
  * return: always 0
  */
 int main (void)
