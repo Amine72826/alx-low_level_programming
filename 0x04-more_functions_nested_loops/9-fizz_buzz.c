@@ -7,7 +7,7 @@
  * and for multiples of five prins buzz
  * return: always 0
  */
-int main (void)
+int main(void)
 {
 	int x = 1;
 
