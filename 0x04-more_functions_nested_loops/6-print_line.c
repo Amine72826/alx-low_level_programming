@@ -3,8 +3,8 @@
 
 /**
  * print_line - draws a straight line 
- * @n: number of time the _ should be printed
- * return: void
+ * @n: number of time the '_' should be printed
+ * Return: void
  */
 void print_line(int n)
 {
