@@ -3,15 +3,15 @@
 
 /**
  * main - prints the numbers from 1 to 100, followed by a new line
- * for multiples of 3 prints fizz instead of the number
- * and for multiples of five prins buzz
- * return: always 0
+ *
+ * 
+ * Return: always 0
  */
 int main(void)
 {
 	int x = 1;
 
-	while (x < 101)
+	while (x <= 100)
 	{
 		if (x % 3 == 0 && x % 5 == 0)
 		{
