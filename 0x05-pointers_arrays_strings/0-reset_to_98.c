@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * reset_to_98- takes a pointer to an int as par and updates
- * the value it points to to 98
- * @n: the number to modify
- * return: void
+ * reset_to_98 - updates the value *n points to.
+ * @n: pointer to the variable to update
  */
 void reset_to_98(int *n);
 {
