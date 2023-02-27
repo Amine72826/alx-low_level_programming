@@ -5,14 +5,15 @@
  * followed by a new line
  * @str: string to be printed
  */
+
 void puts_half(char *str)
 {
 	int len, n, i;
 
-	for (length = 0; str[length] != '\0'; length++)
+	for (len = 0; str[len] != '\0'; len++)
 	{
 	}
-	n = (length - 1) / 2;
+	n = (len - 1) / 2;
 	for (i = n + 1; str[i] != '\0'; i++)
 	{
 		_putchar(str[i]);
