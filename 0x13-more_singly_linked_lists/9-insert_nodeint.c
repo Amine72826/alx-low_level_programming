@@ -7,18 +7,21 @@
  * @index: Position of a the node to find (starting from 0).
  * Return: Node address.
  **/
-
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	unsigned int i = 0;
-
 	if (head == NULL)
 		return (NULL);
-	for (i = 0; i < index; i++)
+
+	unsigned int count = 0;
+	listint_t *current = head;
+
+	while (current != NULL && count < index)
 	{
-		head = head->next;
-		if (head == NULL)
-			return (NULL);
+		current = current->next;
+		count++;
 	}
-	return (head);
+	if (count < index || current == NULL)
+		return (NULL);
+
+	return (current);
 }
