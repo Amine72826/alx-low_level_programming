@@ -1,12 +1,11 @@
 #include "lists.h"
-#include <stdlib.h>
 
 /**
- * insert_nodeint_at_index - Find a node in a list.
+ * insert_nodeint_at_index - inserts a new node in a list.
  * @head: Address of the first node in a list.
- * @idx: Position of a the node to find (starting from 0).
+ * @idx: Position to insert node in (starting from 0).
  * @n : the value to be stored in the new node.
- * Return: Node address or NULL
+ * Return: new node address or NULL
  **/
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
