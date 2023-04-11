@@ -6,11 +6,6 @@
  * @letters: the number of letters to read and print
  * Return: the number of letters it could read and print
  */
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <fcntl.h>
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd, nread;
